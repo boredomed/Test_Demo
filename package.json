@@ -1,0 +1,57 @@
+{
+  "name": "iamyooney",
+  "version": "1.0.0",
+  "description": "Identity and Access Management for Yooney",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "eureka-js-client": "^4.5.0",
+    "events": "^3.0.0",
+    "express": "^4.16.3",
+    "express-async-handler": "^1.1.3",
+    "express-jwt": "^5.3.1",
+    "express-list-endpoints": "^4.0.1",
+    "express-validation": "^1.0.2",
+    "geoip-lite": "^1.3.7",
+    "google-libphonenumber": "^3.2.2",
+    "helmet": "^3.12.0",
+    "http-errors": "^1.6.3",
+    "ioredis": "^4.10.0",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.11",
+    "method-override": "^2.3.10",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.0",
+    "sequelize-cli": "^5.4.0",
+    "swagger-ui-express": "^3.0.9",
+    "twilio": "^3.33.1",
+    "uuid": "^3.3.2",
+    "yamljs": "^0.3.0",
+    "yooney-middlewares": "git+https://aef3f1ce51f7f41b3f7679211f9ee96e5dd2214d@github.com/Yooneyb/middlewares.git#master",
+    "yooney-model": "git+https://aef3f1ce51f7f41b3f7679211f9ee96e5dd2214d@github.com/Yooneyb/databasePackage.git#master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yooneyb/IAMYooney.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yooneyb/IAMYooney/issues"
+  },
+  "homepage": "https://github.com/Yooneyb/IAMYooney#readme"
+}
